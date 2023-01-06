@@ -10,6 +10,9 @@
 }
 
 .banner-title{
+    border-width: 525px;
+    border-left: 845px;
+    border-top: 216px;;
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
@@ -22,6 +25,60 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    padding: 30px;
 }
 
-.banner-btn {}
+.banner-btn {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    height: 64px;
+    border: 0px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+.section-container{
+display: flex;
+justify-content: space-around;
+text-align: center;
+}
+.image{
+    margin-top: 131px;
+    margin-right: 87px;
+    margin-left: 206px;
+}
+.text{
+    margin-top:370px;
+    margin-right:322px;
+    margin-left: 87px; 
+}
+.text-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.text-description{
+    margin-top: 24px;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.text-list{
+    margin-top: 63px;
+    height: 162px;
+    left: 862px;
+    top: 1416px;
+}
+.list{
+  
+    color: #444343;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
