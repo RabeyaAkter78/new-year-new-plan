@@ -9,10 +9,11 @@
     text-align: right;
 }
 
-.banner-title{
+.banner-title {
     border-width: 525px;
     border-left: 845px;
-    border-top: 216px;;
+    border-top: 216px;
+    ;
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
@@ -40,45 +41,106 @@
     border-radius: 5px;
     background: #FD6E0A;
 }
-.section-container{
-display: flex;
-justify-content: space-around;
-text-align: center;
+
+.section-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
-.image{
+
+.image {
     margin-top: 131px;
     margin-right: 87px;
     margin-left: 206px;
 }
-.text{
-    margin-top:370px;
-    margin-right:322px;
-    margin-left: 87px; 
+
+.text {
+    margin-top: 370px;
+    margin-right: 322px;
+    margin-left: 87px;
 }
-.text-title{
+
+.text-title {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     color: #151414;
 }
-.text-description{
+
+.text-description {
     margin-top: 24px;
-    
+
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #444343;
 }
-.text-list{
+
+.text-list {
     margin-top: 63px;
     height: 162px;
     left: 862px;
     top: 1416px;
 }
-.list{
-  
+
+.list {
+
     color: #444343;
     font-weight: 400;
-font-size: 16px;
-line-height: 26px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* plan section */
+h3 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #151414;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.plan-container {
+    margin-right: 229px;
+    margin-left: 230px;
+    display: flex;
+    gap: 24px
+}
+
+.plan {
+    margin-left: 86px;
+    padding: 93ppx;
+    width: 218px;
+    height: 197px;
+    left: 853px;
+    top: 1889.3px;
+
+}
+
+.plan-img {
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 301px;
+margin-bottom: 24px;
+
+}
+
+.plan-title {
+    margin-top: 24px;
+     font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.plan-description {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
 }
