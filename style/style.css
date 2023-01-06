@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    font-family: 'Work Sans';
+    font-style: normal;
+    text-align: right;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+}
+
+.banner-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.banner-btn {}
