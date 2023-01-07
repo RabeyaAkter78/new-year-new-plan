@@ -1,25 +1,24 @@
 * {
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 /* banner section */
-.banner {
-    font-family: 'Work Sans';
-    font-style: normal;
-    text-align: right;
+
+.banner{
+    display: flex;
+    align-items: center; 
 }
 
 .banner-title {
-    border-width: 525px;
-    border-left: 845px;
-    border-top: 216px;
-    ;
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
     text-align: right;
     color: #151414;
+    font-weight: 700;
+    margin-bottom: 24px;
 }
 
 .banner-description {
@@ -97,18 +96,18 @@
 h3 {
     margin-top: 30px;
     margin-bottom: 50px;
-    color: #151414;
     text-align: center;
     font-weight: 700;
     font-size: 40px;
-    line-height: 47px;
+
+    color: #151414;
 }
 
 .plan-container {
     margin-right: 229px;
     margin-left: 230px;
     display: flex;
-    gap: 24px
+    padding: 16px 24px;
 }
 
 .plan {
@@ -118,14 +117,17 @@ h3 {
     height: 197px;
     left: 853px;
     top: 1889.3px;
+    align-items: center;
 
 }
 
 .plan-img {
-    align-items: center;
+
     margin-top: 50px;
-    margin-right: 301px;
-    margin-bottom: 24px;
+    margin-right: 43px;
+    margin-left: 43px;
+    margin-bottom: 30px;
+    align-items: center;
 
 }
 
@@ -185,20 +187,17 @@ h3 {
 }
 
 /* footer section */
-.footer-container {
+.content {
     display: flex;
     text-align: center;
     padding: 130px 230px;
-    width: 1600px;
-    height: 577px;
-    left: 0px;
-    top: 2646.3px;
+
     background: #151414;
-    color: #F8F8F8;
+    color: #FFFFFF;
 
 }
 
-.footer.text {
+.section-title {
     width: 485px;
     height: 317px;
     left: 230px;
@@ -225,7 +224,6 @@ h3 {
     font-size: 16px;
     line-height: 26px;
     margin-top: 16px;
-    text-align: left;
 }
 
 .logo {
@@ -234,19 +232,12 @@ h3 {
     top: 3047.3px;
     ;
 }
-/* 
-.form {
 
-}
+.mail {
+    margin-top: 30px;
 
-.form-text {}
-*/
-.mail{
-  margin-top: 30px;
-  width: 325px;
-height: 64px;
-padding: 21px;
-border: none;
+    padding: 21px;
+
 }
 
 .form-btn {
@@ -254,10 +245,7 @@ border: none;
     margin-top: 6px;
     border-radius: 5px;
     padding: 18px 35px;
-    width: 170.11px;
-    height: 64px;
-    left: 1046px;
-    top: 2916.3px;
+
     color: #FD6E0A;
     background: #FFFFFF;
 }
