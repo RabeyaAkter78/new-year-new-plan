@@ -6,11 +6,11 @@
 
 /* banner section */
 
-.banner{
+.banner {
     background-image: url('../images/banner/banner1.png');
 
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .banner-title {
@@ -55,7 +55,7 @@
     margin-top: 131px;
     margin-right: 87px;
     margin-left: 206px;
-    
+
 }
 
 .text {
@@ -159,6 +159,7 @@ h3 {
 
 #grad1 {
     background-image: url('../images/watch.png');
+    background-blend-mode: normal;
     width: 1140px;
     height: 300px;
     left: 230px;
@@ -188,8 +189,9 @@ h3 {
     border-radius: 5px;
     background: #FFFFFF;
 }
+
 /* comment section */
-.comment .section-title{
+.comment .section-title {
     max-width: fit-content;
     color: #474747;
     padding: 130px 200px;
@@ -197,16 +199,20 @@ h3 {
     align-items: center;
     margin: 50px 200px;
 }
-.comment.textarea{
-    
-        height: 64px;  
+
+.comment.textarea {
+
+    height: 64px;
 }
-    .comment .input[type="text"], input[type="email"], textarea{
-        margin-bottom: 24px;
-        border: 0;
-        width: 100%;
-        padding: 18px 30px;
-    }
+
+.comment .input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
 
 /* footer section */
 .content {
@@ -214,7 +220,8 @@ h3 {
     gap: 100px;
     background: #151414;
     padding-top: 130px;
-    padding-left: 230px;;
+    padding-left: 230px;
+    ;
     color: #FFFFFF;
     text-align: left;
 }
@@ -226,12 +233,23 @@ h3 {
     top: 2776.3px;
     color: #FFFFFF;
     padding-top: 130px;
-    padding-bottom: 16px;
-   
+    padding-bottom: 24px;
+
 }
-h3{
-    
+
+.future {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 24 px;
 }
+
+.address {
+    padding-bottom: 24px;
+}
+
 .footer-title {
     font-weight: 700;
     font-size: 45px;
@@ -256,24 +274,26 @@ h3{
 
     left: 230px;
     top: 3047.3px;
-    ;
+    padding-top: 40px;
 }
 
 .mail {
     padding: 21px;
     background-color: #151414;
-    border: 2px;
-    border-radius: 3px;
+
 
 }
-form{
+
+form {
     width: 325px;
-height: 64px;
-left: 1046px;
-top: 2836.3px;
+    height: 64px;
+    left: 1046px;
+    top: 2836.3px;
+
 }
+
 .form-btn {
-    border:none;
+    border: none;
     margin-top: 6px;
     border-radius: 5px;
     padding: 18px 35px;
