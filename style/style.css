@@ -3,6 +3,7 @@
     font-family: sans-serif;
 }
 
+/* banner section */
 .banner {
     font-family: 'Work Sans';
     font-style: normal;
@@ -42,6 +43,7 @@
     background: #FD6E0A;
 }
 
+/* failor section */
 .section-container {
     display: flex;
     justify-content: space-around;
@@ -146,8 +148,8 @@ h3 {
 }
 
 /* gradient section */
-.gradient{
-    padding:130px 230px;
+.gradient {
+    padding: 130px 230px;
 }
 
 #grad1 {
@@ -157,10 +159,10 @@ h3 {
     left: 230px;
     top: 2216.3px;
 
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%) ,url(../images/watch.png);
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
     border-radius: 8px;
-   padding: 59px 64px;
-   background-size: cover;
+    padding: 59px 64px;
+    background-size: cover;
 }
 
 .grad-title {
@@ -171,8 +173,8 @@ h3 {
 }
 
 .gradient-btn {
-  
-    color:#FD6E0A ;
+
+    color: #FD6E0A;
     font-size: 20px;
     font-weight: 700;
     height: 64px;
@@ -181,7 +183,81 @@ h3 {
     border-radius: 5px;
     background: #FFFFFF;
 }
-/*   width: 160px;
+
+/* footer section */
+.footer-container {
+    display: flex;
+    text-align: center;
+    padding: 130px 230px;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2646.3px;
+    background: #151414;
+    color: #F8F8F8;
+
+}
+
+.footer.text {
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top: 2776.3px;
+    color: #FFFFFF;
+
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    width: 148px;
+    height: 53px;
+    left: 230px;
+    top: 2776.3px;
+    text-align: left;
+}
+
+.footer-description {
+    margin-right: 331px;
+    margin-left: 230px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 16px;
+    text-align: left;
+}
+
+.logo {
+
+    left: 230px;
+    top: 3047.3px;
+    ;
+}
+/* 
+.form {
+
+}
+
+.form-text {}
+*/
+.mail{
+  margin-top: 30px;
+  width: 325px;
+height: 64px;
+padding: 21px;
+border: none;
+}
+
+.form-btn {
+    border: 0px;
+    margin-top: 6px;
+    border-radius: 5px;
+    padding: 18px 35px;
+    width: 170.11px;
     height: 64px;
-    left: 294px;
-    top: 2393.3px; */
+    left: 1046px;
+    top: 2916.3px;
+    color: #FD6E0A;
+    background: #FFFFFF;
+}
