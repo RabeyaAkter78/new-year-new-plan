@@ -189,12 +189,12 @@ h3 {
 /* footer section */
 .content {
     display: flex;
-    text-align: center;
-    padding: 130px 230px;
-
+    gap: 100px;
     background: #151414;
+    padding-top: 130px;
+    padding-left: 230px;;
     color: #FFFFFF;
-
+    text-align: left;
 }
 
 .section-title {
@@ -203,7 +203,9 @@ h3 {
     left: 230px;
     top: 2776.3px;
     color: #FFFFFF;
-
+    padding-top: 130px;
+    padding-bottom: 16px;
+   
 }
 
 .footer-title {
@@ -239,9 +241,14 @@ h3 {
     padding: 21px;
 
 }
-
+form{
+    width: 325px;
+height: 64px;
+left: 1046px;
+top: 2836.3px;
+}
 .form-btn {
-    border: 0px;
+    border:none;
     margin-top: 6px;
     border-radius: 5px;
     padding: 18px 35px;
