@@ -157,9 +157,10 @@ h3 {
     left: 230px;
     top: 2216.3px;
 
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%) ,url(../images/watch.png);
     border-radius: 8px;
    padding: 59px 64px;
+   background-size: cover;
 }
 
 .grad-title {
